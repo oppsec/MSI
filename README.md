@@ -11,7 +11,7 @@
 
 ## How to use
 1. You need to have Python 2.6+ installed. [Python](https://www.python.org/)
-2. After downloading the files and , put the `main` and `system_info` in the same folder.
+2. After downloading the files, put the `main.py` and `system_info.py` in the same folder.
 3. Open your terminal/prompt and type "main.py" if not works, try using "python main.py"
 4. Done, your system informations has been printed in the console.
 
