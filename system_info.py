@@ -1,10 +1,9 @@
 import psutil, datetime
 import sys
 import main
-import os
+import 
 
 W  = '\033[0m'  # normal
-G  = '\033[32m' # green
 O  = '\033[33m' # orange
 
 def system1():
@@ -19,20 +18,18 @@ def system1():
 
     def print_info():
         os.system("cls") 
-        print(W+'---my-sys-info---')
+        print(W+'---mysysinfo---')
         print(W+'*******************')
-        print(W+'---CPU---')
+        print(W+'\n---CPU---')
         print(O+'CPU %:', per)
         print(O+'CPU Frequence:', freq.current)
         print(O+'CPU Cores:', count)
         print(O+'CPU Stats:', stats.ctx_switches)
-        print(W+'')
-        print(W+'---MEMORY---')
+        print(W+'\n---MEMORY---')
         print(O+'Memory %:', mem.percent)
         print(O+'Memory Available:', mem.available)
         print(O+'Memory Used:', mem.used)
-        print(W+'')
-        print(W+'---BOOT---')
+        print(W+'\n---BOOT---')
         print(O+'Boot Time:', time)
 
 get_info()
