@@ -11,6 +11,8 @@ def choose_option():
 
     if(option == 1):
        system_info.system1()
+    elif option != 1):
+       print("Select a valid option")
 
 if(__name__ == "__main__"):
     choose_option()
