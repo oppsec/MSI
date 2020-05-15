@@ -1,7 +1,6 @@
 import psutil, datetime
 import sys
 import main
-import 
 
 W  = '\033[0m'  # normal
 O  = '\033[33m' # orange
