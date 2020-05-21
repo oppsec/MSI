@@ -4,6 +4,8 @@
 
 > Console application to give informations about your system.
 
+My Sistem Info is a console application made in python to give informations about your PC, the application print informations about your RAM, CPU, CPU Usage etc...
+
 # Install
 1. For more easy download, click in the button "Clone or download" and click in "Download ZIP"
 2. If you want to use SSH, you can use "git clone git@github.com:DanielSDM/my-system-info.git"
