@@ -1,12 +1,13 @@
-import psutil, datetime
-import sys
-import main
+import psutil, datetime, sys, main
 
-W  = '\033[0m'  # normal
-O  = '\033[33m' # orange
+W  = '\033[0m'
+O  = '\033[33m'
 
 def system1():
 
+    def clear():
+        os.system('cls' if os.name == 'nt' else 'clear')
+    
     def get_info():
         time = datetime.datetime.fromtimestamp(psutil.boot_time()).strftime("%Y-%m-%d %H:%M:%S")
         mem = psutil.virtual_memory()
@@ -16,8 +17,7 @@ def system1():
         stats = psutil.cpu_stats()
 
     def print_info():
-        os.system("cls") 
-        print(W+'---mysysinfo---')
+        clear() 
         print(W+'*******************')
         print(W+'\n---CPU---')
         print(O+'CPU %:', per)
@@ -30,7 +30,8 @@ def system1():
         print(O+'Memory Used:', mem.used)
         print(W+'\n---BOOT---')
         print(O+'Boot Time:', time)
-
+        
+clear()
 get_info()
 print_info()
 
