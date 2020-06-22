@@ -1,19 +1,17 @@
-import system_info
+from system_info import system1
 import os
 
-W  = '\033[0m'  # normal
+def main():
+   try:
+      print('[1] - System Info ')
+      option = int(input('Select? '))
 
-def choose_option():
+      if option == 1:
+         system1()
+      else:
+          print("Select a valid option")
+   except KeyboardInterrupt:
+      print("You close the program. :(")
 
-    print(W+'')
-    print('[1] - System Info ')
-    option = int(input('Select? '))
-
-    if(option == 1):
-       system_info.system1()
-    elif option != 1):
-       print("Select a valid option")
-
-if(__name__ == "__main__"):
-    choose_option()
-
+if __name__ == "__main__":
+    main()

@@ -12,10 +12,11 @@ My Sistem Info is a console application made in python to give informations abou
 3. If you want to use HTTPS, you can use "git clone https://github.com/DanielSDM/my-system-info.git"
 
 ## How to use
-1. You need to have Python 2.6+ installed. [Python](https://www.python.org/)
-2. After downloading the files, put the `main.py` and `system_info.py` in the same folder.
-3. Open your terminal/prompt and type "main.py" if not works, try using "python main.py"
-4. Done, your system informations has been printed in the console.
+1. You need to have Python 2.6+ installed. [Python](https://www.python.org/).
+2. After you [Install](#Install)...
+3. Open your terminal/prompt and type ``pip install -r requirements.txt`` to install the dependencies.
+4. after type ``main.py`` if not works, try using ``python main.py``.
+5. Done, your system informations has been printed in the console.
 
 # What I used to do this?
 - I used the **psutil** a **Cross-platform lib for process and system monitoring in Python.** [psutil](https://pypi.org/project/psutil/)
