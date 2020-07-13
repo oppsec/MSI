@@ -8,14 +8,14 @@ My Sistem Info is a console application made in python to give informations abou
 
 # Install
 1. For more easy download, click in the button "Clone or download" and click in "Download ZIP"
-2. If you want to use SSH, you can use "git clone git@github.com:DanielSDM/my-system-info.git"
-3. If you want to use HTTPS, you can use "git clone https://github.com/DanielSDM/my-system-info.git"
+2. If you want to use SSH, you can use "git clone git@github.com:oppsec/my-system-info.git"
+3. If you want to use HTTPS, you can use "git clone https://github.com/oppsec/my-system-info.git"
 
 ## How to use
-1. You need to have Python 2.6+ installed. [Python](https://www.python.org/).
-2. After you [Install](#Install)...
-3. Open your terminal/prompt and type ``pip install -r requirements.txt`` to install the dependencies.
-4. after type ``main.py`` if not works, try using ``python main.py``.
+1. Python 2.6+ installed. [Python](https://www.python.org/).
+2. Set your terminal PATH to the folder path.
+3. Type on your terminal ``pip install -r requirements.txt`` to install the dependencies.
+4. To run type``main.py`` if not works, try using ``python main.py``.
 5. Done, your system informations has been printed in the console.
 
 # What I used to do this?
