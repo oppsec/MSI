@@ -8,8 +8,8 @@ MSI(My System Info) is a CLI python which gives information about your system st
 
 # Install
 1. For more easy download, click in the button "Clone or download" and click in "Download ZIP"
-2. If you want to use SSH, you can use "git clone git@github.com:oppsec/MSI.git"
-3. If you want to use HTTPS, you can use "git clone https://github.com/oppsec/MSI.git" **(recommended)**
+2. If you want to use SSH, you can use `git clone git@github.com:oppsec/MSI.git`
+3. If you want to use HTTPS, you can use `git clone https://github.com/oppsec/MSI.git` **(recommended)**
 <br>
 
 ## Set-Up
