@@ -2,18 +2,20 @@ import socket
 import os
 
 from datetime import datetime # Time
-from colorama import Fore # Color
+from rich import print # CLI Color
 from psutil import virtual_memory, cpu_count, cpu_freq, cpu_percent, boot_time # Get system info
 
-ascii = """
+ascii = """[bold magenta]
                         _ 
         ____ ___  _____(_)
        / __ `__ \/ ___/ / 
       / / / / / (__  ) /  
      /_/ /_/ /_/____/_/ 
 
- my sistem info 2.0 | oppsec           
+ my sistem info 2.1 | oppsec[/bold magenta]      
 """
+
+dots = "[bold white]. . . . . . . . . . . . . . . .[/bold white] \n"
 
 def clearTerminal():
     os.system('cls' if os.name == 'nt' else 'clear')
@@ -22,11 +24,11 @@ def menu():
     clearTerminal()
 
     ## BANNER
-    print(Fore.YELLOW + ascii)
-    print(Fore.WHITE + ". . . . . . . . . . . . . . . . \n")
+    print(ascii)
+    print(dots)
 
     username = socket.gethostname()
-    print(f'[!] - Welcome {username} \n')
+    print(f"[!] - Welcome [bold magenta]{username}[/bold magenta]", ":smiley:", "\n")
 
     ## CALL SYSTEM INFO FUNCTION
     sysinfo()
@@ -37,12 +39,14 @@ def sysinfo():
     cpuFreq = cpu_freq()
     bootTime = datetime.fromtimestamp(boot_time()).strftime("%Y-%m-%d %H:%M:%S")
 
-    print('[#] Available memory:', availableMemory.available, '\n')
+    print('[bold green]#[/bold green] Available memory:', availableMemory.available, '\n')
 
-    print('[#] CPU Amount:', cpu_count())
-    print('[#] CPU Frequency:', cpuFreq.current)
-    print('[#] CPU Use Percentage:', cpu_percent(), '\n')
+    print('[bold green]#[/bold green] CPU Amount:', cpu_count())
+    print('[bold green]#[/bold green] CPU Frequency:', cpuFreq.current)
+    print('[bold green]#[/bold green] CPU Use Percentage:', cpu_percent(), '\n')
 
-    print('[#] Boot Time:', bootTime)
+    print('[bold green]#[/bold green] Boot Time:', bootTime, '\n')
+
+    print(dots)
 
 menu()
