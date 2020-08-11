@@ -1,2 +1,2 @@
-colorama==0.4.3
+rich==5.1.2
 psutil==5.7.2
