@@ -1,6 +1,6 @@
 # 🖥️ MSI
 
-![System](https://i.ibb.co/N1Kj6Gh/Screenshot-2.jpg)
+![System](https://i.imgur.com/pVB0kkx.jpg)
 
 > CLI which give informations about your system.
 
