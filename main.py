@@ -38,8 +38,8 @@ def sysinfo():
 
   print(f'[bold green]#[/bold green] Available memory: {availableMem} GB\n')
   print(f'[bold green]#[/bold green] CPU Amount: {cpuCount}')
-  print(f'[bold green]#[/bold green] CPU Frequency: {cpuFreq}')
-  print(f'[bold green]#[/bold green] CPU Usage Percentage: {cpuPercent}\n')
+  print(f'[bold green]#[/bold green] CPU Frequency: {cpuFreq} MHz')
+  print(f'[bold green]#[/bold green] CPU Usage Percentage: {cpuPercent} %\n')
   print(f'[bold green]#[/bold green] Boot Time: {bootTime}\n')
 
 menu()
