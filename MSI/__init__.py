@@ -6,6 +6,7 @@ from datetime import datetime
 from rich import print
 from psutil import virtual_memory, cpu_count, cpu_freq, cpu_percent, boot_time
 
+
 class MSI:
     def __init__(self):
         self.cls_terminal = lambda : system('cls' if os_name == 'nt' else 'clear')
