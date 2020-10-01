@@ -7,7 +7,7 @@
 <br><br>
 
 ## 🤔 What is MSI?
-MSI(My System Info) is a CLI python which gives information about your system.
+MSI (My System Info) is a CLI python which gives information about your system.
 
 <br><br>
 
