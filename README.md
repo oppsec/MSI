@@ -27,5 +27,5 @@ MSI (My System Info) is a CLI python which gives information about your system.
 
 <br><br>
 
-## 📚 Libraries
+## 📝 Libraries
 - [psutil](https://pypi.org/project/psutil/) | **Cross-platform lib for process and system monitoring in Python.**
